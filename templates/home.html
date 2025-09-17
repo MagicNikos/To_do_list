@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="content">
+    <h1>Σημειωματάριο</h1>
+
+    {% if notes|length < 1 %}
+        <h4>Δεν υπάρχουν σημειώσεις ακόμα..</h4>
+    {% else %}
+
+        <table> <!-- έδω είναι το κύριο πλαίσιο -->
+            <tr>
+                <!--Δεν νομίζω πως χρειάζεται να κάνουν κάτι αυτά.. ίσως κανα button εκει που λεει επιλογες για να το κανει να αλλαζει το πως γινεται η χρονικη κατανομη -->
+                <th style="width: 50px; text-align: center;"></th>
+                <th>Σημειώσεις</th>
+                <th style="width: 180px;">Ημερομηνία</th>
+                <th style="width: 140px; text-align: center;">Επιλογές</th>
+            </tr>
+
+            {% for note in notes %}
+            <tr>
+                <td style="text-align: center;">
+                    <a href="/priority/{{note.id}}" class="star">
+                        {% if note.is_priority %} ⭐ {% else %} ☆ {% endif %}
+                    </a>
+                </td>
+                
+                <td>{{ note.text }}</td>
+                <td style="white-space: nowrap;">{{ note.created_at.strftime("%d/%m/%Y %H:%M") }}</td>
+                <td style="text-align: center;">
+                    <!-- Οι επιλογές που μας πάνε στο εκάστοτε route -->
+                    <a href="/edit/{{note.id}}">Τροποποίηση</a>
+                    <a href="/remove/{{note.id}}">Διαγραφή</a> 
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+
+  <!-- Error μήνυμα -->
+    {% if error %}
+        <p style="color: red; text-align: center; margin-bottom: 15px;">
+            {{ error }}
+        </p>
+    {% endif %}
+    
+    <!-- Το κατώ κουμπί που μας επιτρέπει να βάζουμε-->
+    <form action="/" method="POST">
+        <input type="text" name="text" id="text" placeholder="Νέα σημείωση..">
+        <input type="submit" value="Προσθέστε σημείωση">
+    </form>
+
+</div>
+{% endblock %}
