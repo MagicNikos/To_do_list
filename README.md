@@ -7,8 +7,9 @@
 ## Προαπαιτούμενα
 
 - Python 3.10+
-- Flask
-- Flask-SQLAlchemy
+Αν δεν έχετε την python κατεβασμένη στο σύστημά σας,
+επισκεφτείτε τον σύνδεσμο https://www.python.org/
+και κατεβάστε την νεότερη έκδοση, επιλέγοντας "Add Python to PATH" για ευκολία.
 
 ---
 
@@ -19,14 +20,15 @@
 
 2. **Δημιουργία και ενεργοποίηση virtualenv**
 python -m venv env
+
+**powershell:**(αν υπάρξει πρόβλημα)
+Set-ExecutionPolicy RemoteSigned
+και απάντησε: Y.
+
 # Windows PowerShell
 .\env\Scripts\Activate.ps1
 # macOS/Linux
 source env/bin/activate
-
-**powershell:**(αν υπάρξει πρόβλημα)
-Set-ExecutionPolicy RemoteSigned
-και απάντησε Y.
 
 3. **Εγκατάσταση απαιτούμενων βιβλιοθηκών**
 pip install -r requirements.txt
@@ -88,3 +90,4 @@ Favicon δεν εμφανίζεται: χρήση favicon.io.
 
 Μέρος της Ατομική εργασία για το μάθημα Εισαγωγή στην Επιστήμη του Ηλεκτρολόγου Μηχανικού 2024-2025 του Σαλιάρη Νικόλαου
 ## github : https://github.com/MagicNikos/To_do_list
+
