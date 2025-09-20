@@ -47,47 +47,12 @@ terminal πχ στο vs code).
 
 "python app.py"
 
-
-
-
-
-
-
-
-
-
-
-
+Η εφαρμογή θα τρέχει τοπικά στη διεύθυνση: http://127.0.0.1:5000/
 
 ---
 
-Η εφαρμογή θα τρέχει τοπικά στη διεύθυνση: http://127.0.0.1:5000/
-
-
-
-
-
-
-## Περιγραφή εφαρμογής
-Flask: Back-end, διαχείριση routes και templates.
-
-SQLAlchemy: Διαχείριση SQLite βάσης δεδομένων.
-
-Jinja2: Σύνδεση HTML templates με Python δεδομένα.
-
-Virtualenv: Απομονωμένο περιβάλλον για όλες τις εξαρτήσεις.
-
-Υποστηρίζει:
-Προσθήκη νέας σημείωσης.
-
-Τροποποίηση υπάρχουσας σημείωσης.
-
-Διαγραφή σημείωσης.
-
-Κατηγοριοποίηση σημειώσεων με βάση την προτεραιότητα (importance).
-
 ## Δομή φακέλων
-project-folder/
+Code/
 │
 ├── app.py                  
 ├── requirements.txt        
@@ -96,12 +61,6 @@ project-folder/
 ├── /env                    
 └── notes.db                 
 
-## Προβλήματα και λύσεις
-Virtualenv δεν εκκινεί στα Windows: χρήση Set-ExecutionPolicy RemoteSigned.
-
-Προσθήκη νέου πεδίου στη βάση δεδομένων: διαγραφή ή migration της SQLite βάσης.
-
-Favicon δεν εμφανίζεται: χρήση favicon.io.
 ## Πηγές
 - https://www.tutorialspoint.com/flask/index.htm
 - https://www.youtube.com/watch?v=Z1RJmh_OqeA&list=LL&index=37&t=268s
@@ -112,8 +71,9 @@ Favicon δεν εμφανίζεται: χρήση favicon.io.
 
 
 
-Μέρος της Ατομική εργασία για το μάθημα Εισαγωγή στην Επιστήμη του Ηλεκτρολόγου Μηχανικού 2024-2025 του Σαλιάρη Νικόλαου
-## github : https://github.com/MagicNikos/To_do_list
+### Μέρος της Ατομική εργασία για το μάθημα Εισαγωγή στην Επιστήμη του Ηλεκτρολόγου Μηχανικού 2024-2025 του Σαλιάρη Νικόλαου, Πανεπιστήμιο Πατρών
+#### github : https://github.com/MagicNikos/To_do_list
+
 
 
 
