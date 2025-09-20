@@ -21,13 +21,13 @@
 "open Powershell window here" Μετά κάνετε copy paste τις ακόλουθες εντολές στο powershell (ή στο άλλο σας 
 terminal πχ στο vs code).
 
-2. **Εγκατάσταση του virtualenv**
+3. **Εγκατάσταση του virtualenv**
 python -m venv env
-3.  **Ενεργοποίηση του virtualenv**
-###  Για Windows 
-.\env\Scripts\Activate.ps1
-###  Για macOS/Linux
-source env/bin/activate
+4.  **Ενεργοποίηση του virtualenv**
+####  Για Windows 
+ ".\env\Scripts\Activate.ps1"
+####  Για macOS/Linux
+"source env/bin/activate"
 
 ## αν υπάρξει πρόβλημα με την ενεργοποίηση του περιβάλλοντος ανοίψτε το powershell με "run as administrator" και γράψτε:
 "Set-ExecutionPolicy RemoteSigned"
@@ -93,6 +93,7 @@ Favicon δεν εμφανίζεται: χρήση favicon.io.
 
 Μέρος της Ατομική εργασία για το μάθημα Εισαγωγή στην Επιστήμη του Ηλεκτρολόγου Μηχανικού 2024-2025 του Σαλιάρη Νικόλαου
 ## github : https://github.com/MagicNikos/To_do_list
+
 
 
 
