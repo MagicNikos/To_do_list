@@ -3,6 +3,43 @@
 Μια εφαρμογή τύπου "to-do list" που επιτρέπει στο χρήστη να δημιουργεί, τροποποιεί και διαγράφει σημειώσεις. Υποστηρίζει προτεραιότητες (importance) και αποθηκεύει τα δεδομένα σε SQLite χρησιμοποιώντας Flask και SQLAlchemy.
 
 ---
+# Σημειωματάριο με Flask
+
+Μια εφαρμογή τύπου "to-do list" που επιτρέπει στο χρήστη να δημιουργεί, τροποποιεί και διαγράφει σημειώσεις. Υποστηρίζει προτεραιότητες (importance) και αποθηκεύει τα δεδομένα σε SQLite χρησιμοποιώντας Flask και SQLAlchemy.
+
+---
+
+## Προαπαιτούμενα
+
+- Python 3.10+
+- Flask
+- SQLAlchemy
+- Jinja2
+
+---
+
+## Οδηγίες Εκτέλεσης
+
+1. **Αρχή**  
+κάνετε shift + right click μέσα σε αυτό το folder και ανοίγετε το PowerShell μέσα σε αυτόν τον φάκελο
+
+2. **Δημιουργία και ενεργοποίηση virtualenv**
+python -m venv env
+3. Windows PowerShell
+.\env\Scripts\Activate.ps1
+3. macOS/Linux
+source env/bin/activate
+
+**powershell:**(αν υπάρξει πρόβλημα)
+Set-ExecutionPolicy RemoteSigned
+και απάντησε Y.
+
+3. **Εγκατάσταση απαιτούμενων βιβλιοθηκών**
+pip install -r requirements.txt
+Εκτέλεση της εφαρμογής
+
+4. **Εκτέλεση του προγράμματος**
+python app.py
 
 ## Προαπαιτούμενα
 
@@ -90,4 +127,5 @@ Favicon δεν εμφανίζεται: χρήση favicon.io.
 
 Μέρος της Ατομική εργασία για το μάθημα Εισαγωγή στην Επιστήμη του Ηλεκτρολόγου Μηχανικού 2024-2025 του Σαλιάρη Νικόλαου
 ## github : https://github.com/MagicNikos/To_do_list
+
 
