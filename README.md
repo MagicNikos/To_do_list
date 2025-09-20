@@ -22,33 +22,27 @@
 terminal πχ στο vs code).
 
 
-2. **Εγκατάσταση του virtualenv**
-
- "python -m venv env"
+2. **Εγκατάσταση του virtualenv**  
+"python -m venv env"
 
 3. **Ενεργοποίηση του virtualenv**
-####  Για Windows 
+#### Για Windows 
 ".\env\Scripts\Activate.ps1"
  
 #### Για macOS/Linux
 "source env/bin/activate"
 
-
-
 ---
-##### αν υπάρξει πρόβλημα με την ενεργοποίηση του περιβάλλοντος ανοίψτε το powershell με "run as administrator" και γράψτε:
-"Set-ExecutionPolicy RemoteSigned"
-και απάντησε "Y".
+###### αν υπάρξει πρόβλημα με την ενεργοποίηση του περιβάλλοντος ανοίψτε το powershell με "run as administrator" και γράψτε:
+##### "Set-ExecutionPolicy RemoteSigned" και απάντησε "Y".
 ---
 
 
 5. **Εγκατάσταση απαιτούμενων βιβλιοθηκών**
-
-"python -m pip install -r requirements.txt"
+ "python -m pip install -r requirements.txt"
 
 
 6. **Εκτέλεση του προγράμματος**
-
 "python app.py"
 
 Η εφαρμογή θα τρέχει τοπικά στη διεύθυνση: http://127.0.0.1:5000/
@@ -104,6 +98,7 @@ Favicon δεν εμφανίζεται: χρήση favicon.io.
 
 Μέρος της Ατομική εργασία για το μάθημα Εισαγωγή στην Επιστήμη του Ηλεκτρολόγου Μηχανικού 2024-2025 του Σαλιάρη Νικόλαου
 ## github : https://github.com/MagicNikos/To_do_list
+
 
 
 
