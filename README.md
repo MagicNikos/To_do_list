@@ -22,15 +22,14 @@
 terminal πχ στο vs code).
 
 
-3. **Εγκατάσταση του virtualenv**
- 
+2. **Εγκατάσταση του virtualenv**
  "python -m venv env"
 
-5.  **Ενεργοποίηση του virtualenv**
+3. **Ενεργοποίηση του virtualenv**
 ####  Για Windows 
- ".\env\Scripts\Activate.ps1"
+".\env\Scripts\Activate.ps1"
  
-####  Για macOS/Linux
+#### Για macOS/Linux
 "source env/bin/activate"
 
 ### αν υπάρξει πρόβλημα με την ενεργοποίηση του περιβάλλοντος ανοίψτε το powershell με "run as administrator" και γράψτε:
@@ -97,6 +96,7 @@ Favicon δεν εμφανίζεται: χρήση favicon.io.
 
 Μέρος της Ατομική εργασία για το μάθημα Εισαγωγή στην Επιστήμη του Ηλεκτρολόγου Μηχανικού 2024-2025 του Σαλιάρη Νικόλαου
 ## github : https://github.com/MagicNikos/To_do_list
+
 
 
 
